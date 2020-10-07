@@ -10,9 +10,9 @@
 
 ### Association
 
-- has.many :room_users
-- has.many :rooms, through: room_users
-- has.many :messages
+- has_many :room_users
+- has_many :rooms, through: room_users
+- has_many :messages
 
 ## rooms テーブル
 
@@ -22,9 +22,9 @@
 
 # Association
 
-- has.many :room_users
-- has.many :users, through: room_users
-- has.many :massages
+- has_many :room_users
+- has_many :users, through: room_users
+- has_many :massages
 
 ## room_users テーブル
 
