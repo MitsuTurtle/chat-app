@@ -11,7 +11,7 @@
 ### Association
 
 - has.many :room_users
-- has.many :rooms, through room_users
+- has.many :rooms, through: room_users
 - has.many :messages
 
 ## rooms テーブル
@@ -23,7 +23,7 @@
 # Association
 
 - has.many :room_users
-- has.many :users, through users
+- has.many :users, through: room_users
 - has.many :massages
 
 ## room_users テーブル
