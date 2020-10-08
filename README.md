@@ -35,8 +35,8 @@
 
 # Association
 
-- belongs to :room
-- belongs to :user
+- belongs_to :room
+- belongs_to :user
 
 ## messages テーブル
 
@@ -48,5 +48,5 @@
 
 # Association
 
-- belongs to :room
-- belongs to :user
+- belongs_to :room
+- belongs_to :user
